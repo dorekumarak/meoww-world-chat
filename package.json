@@ -1,0 +1,66 @@
+{
+  "name": "whatsapp-chat-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^16.18.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "cloudinary": "^2.0.0",
+    "emoji-picker-react": "^4.9.2",
+    "firebase": "^10.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.0",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.28.0",
+    "@types/bonjour": "^3.5.13",
+    "@types/connect": "^3.4.38",
+    "@types/connect-history-api-fallback": "^1.5.4",
+    "@types/estree": "^1.0.8",
+    "@types/graceful-fs": "^4.1.9",
+    "@types/http-errors": "^2.0.5",
+    "@types/json-schema": "^7.0.15",
+    "@types/parse-json": "^4.0.2",
+    "@types/q": "^1.5.8",
+    "@types/range-parser": "^1.2.7",
+    "@types/retry": "^0.12.5",
+    "@types/send": "^1.2.1",
+    "@types/serve-static": "^2.2.0",
+    "@types/stack-utils": "^2.0.3",
+    "@types/trusted-types": "^2.0.7",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.3.0"
+  }
+}
