@@ -1,28 +1,5 @@
 {
-  "version": 2,
-  "name": "whatsapp-chat-ui",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html",
-      "status": 200
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "functions": {},
-  "installCommand": "npm install",
-  "buildCommand": "npm run build",
-  "outputDirectory": "build",
-  "framework": "create-react-app"
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
